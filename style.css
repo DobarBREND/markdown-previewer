@@ -1,0 +1,44 @@
+body {
+  background-color: whitesmoke;
+  background-image: url("https://cdn.pixabay.com/photo/2016/05/08/14/58/icon-1379228_960_720.png");
+  background-size: 150px;
+  background-repeat: repeat;
+ }
+
+.bg-cl {
+  background-color: orange;
+  color: white;
+  padding: 15px 0;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  padding: 10px;
+  background-color: rgba(50, 50, 50, 0.2);
+  border-radius: 10px;
+  color: orange;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.preview {
+  background-color: whitesmoke;
+}
+
+#editor, .preview {
+  min-height:  600px;
+}
+
+img {
+  width: 150px;
+  padding: 25px;
+  margin-left: 65px;
+}
+
+.copyright {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
